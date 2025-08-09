@@ -354,9 +354,10 @@ input[type="submit"]{
   font-weight: bold;
 }
 input[type="text"]:hover, input[type="text"]:focus {
-box-shadow: #00f5bc 0px 10px 36px 0px, #00f5bc 0px 0px 0px 1px;}
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 textarea{
-  box-shadow: #00f5bc 0px 10px 36px 0px, #00f5bc 0px 0px 0px 1px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 @media (max-width: 900px) {
   .blob {
@@ -435,5 +436,6 @@ textarea{
     font-size: 5rem;
   }
 }
+
 
 
