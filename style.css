@@ -353,6 +353,9 @@ input[type="submit"]{
   color: black;
   font-weight: bold;
 }
+input[type="text"]:hover, input[type="text"]:focus {
+  box-shadow: #00f5bc 0px 54px 55px, #00f5bc 0px -12px 30px, #00f5bc 0px 4px 6px, #00f5bc 0px 12px 13px,#00f5bc 0px -3px 5px;
+}
 @media (max-width: 900px) {
   .blob {
     width: 33.5vw;
@@ -430,3 +433,4 @@ input[type="submit"]{
     font-size: 5rem;
   }
 }
+
